@@ -9,7 +9,7 @@ Full documentation: https://wiki.sparklearts.org/index.php?title=BlocklyExtended
 | Plugin id | `blocklyextended` |
 | Author | SparkleArts |
 | Version | 1.0 |
-| MCreator | 2026.3 line |
+| MCreator | 2026.3, 2026.2 |
 | Generators | `forge-1.20.1`, `neoforge-1.21.1`, `neoforge-26.1.2`, `neoforge-26.3`, `fabric-26.1.2` |
 
 `neoforge-26.3` has not been tested yet. Its templates are copies of the 26.1.2 ones.
