@@ -4,7 +4,7 @@ A plugin for [MCreator](https://mcreator.net/) that adds new field types to the 
 
 Full documentation: https://wiki.sparklearts.org/index.php?title=BlocklyExtended
 
-| | |
+| Property | Value |
 |---|---|
 | Plugin id | `blocklyextended` |
 | Author | SparkleArts |
