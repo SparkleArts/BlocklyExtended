@@ -3,8 +3,10 @@
   "supportedversions": [
     202600341718,
     202600344621,
+    202600299999,
     2026002,
-    2026003
+    2026003,
+    202600399999
   ],
   "weight": 11,
   "javaplugin": "org.sparklearts.blocklyextended.BlocklyExtended",
