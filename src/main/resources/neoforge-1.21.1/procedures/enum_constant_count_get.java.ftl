@@ -1,0 +1,1 @@
+${field$ENUM}.values().length

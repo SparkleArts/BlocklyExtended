@@ -1,0 +1,37 @@
+{
+  "message0": "%1 . %2 . %3",
+  "args0": [
+    {
+      "type": "field_enum_type_reference",
+      "name": "ENUM"
+    },
+    {
+      "type": "field_enum_constant_reference",
+      "name": "CONSTANT",
+      "enumField": "ENUM"
+    },
+    {
+      "type": "field_dropdown",
+      "name": "INTRINSIC",
+      "options": [
+        ["name()", "name"],
+        ["ordinal()", "ordinal"]
+      ]
+    }
+  ],
+  "inputsInline": true,
+  "output": "String",
+  "colour": 200,
+  "tooltip": "Java's built-in per-constant methods, free on every enum constant - name() (String) or ordinal() (Number, position in declaration order starting at 0). Output type follows the selected method.",
+  "extensions": [
+    "enum_constant_intrinsic_get_refresh"
+  ],
+  "mcreator": {
+    "toolbox_id": "enums",
+    "fields": [
+      "ENUM",
+      "CONSTANT",
+      "INTRINSIC"
+    ]
+  }
+}

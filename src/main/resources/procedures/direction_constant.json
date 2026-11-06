@@ -1,0 +1,15 @@
+{
+  "args0": [
+      {
+        "type": "field_direction_radial",
+        "name": "direction"
+      }
+    ],
+    "output": "Direction",
+    "colour": 20,
+    "mcreator": {
+      "fields": [
+        "direction"
+      ]
+    }
+}

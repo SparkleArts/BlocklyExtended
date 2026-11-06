@@ -1,0 +1,35 @@
+{
+  "message0": "%1 is %2 . %3",
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "VALUE"
+    },
+    {
+      "type": "field_enum_type_reference",
+      "name": "ENUM"
+    },
+    {
+      "type": "field_enum_constant_reference",
+      "name": "CONSTANT",
+      "enumField": "ENUM"
+    }
+  ],
+  "inputsInline": true,
+  "output": "Boolean",
+  "colour": 200,
+  "tooltip": "True when the plugged-in enum value is exactly this constant of a locally-declared enum - <value> == <enum>.<constant>. The socket accepts any block (there is no \"Enum\" input type in MCreator), so plugging in something that is not an instance of this enum makes the generated Java fail to compile.",
+  "extensions": [
+    "enum_constant_get_refresh"
+  ],
+  "mcreator": {
+    "toolbox_id": "enums",
+    "inputs": [
+      "VALUE"
+    ],
+    "fields": [
+      "ENUM",
+      "CONSTANT"
+    ]
+  }
+}

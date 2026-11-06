@@ -1,0 +1,1 @@
+(${input$VALUE} == ${field$ENUM}.${field$CONSTANT})

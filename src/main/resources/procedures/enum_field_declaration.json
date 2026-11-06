@@ -1,0 +1,23 @@
+{
+  "message0": "field %1 : %2",
+  "args0": [
+    {
+      "type": "field_input",
+      "name": "NAME",
+      "text": "value"
+    },
+    {
+      "type": "field_java_type_selector",
+      "name": "TYPE"
+    }
+  ],
+  "inputsInline": true,
+  "previousStatement": "EnumField",
+  "nextStatement": "EnumField",
+  "colour": 200,
+  "tooltip": "A typed constructor field for a locally-declared enum's constants - place inside the enum's \"fields\" section. Each one becomes a \"final <type> <name>;\" member plus a matching constructor parameter; the enum's constant list (below) gets one value input per field. Double-click the type to pick from every variable type registered by an installed plugin (MCreator's own native searchable selector), resolved to its real Java class for the active generator - pick-only, no free typing (so no separate int/long/float, just \"double\" for numbers - use the \"field (custom type)\" block instead for those or any other exact Java type). Not connectable anywhere outside an enum's fields section.",
+  "mcreator": {
+    "toolbox_id": "enums",
+    "fields": ["NAME", "TYPE"]
+  }
+}

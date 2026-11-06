@@ -1,0 +1,27 @@
+{
+  "args0": [
+      {
+        "type": "field_text_preview",
+        "name": "TEXT",
+        "text": ""
+      },
+      {
+        "type": "field_mask_toggle",
+        "name": "MASKED",
+        "checked": false,
+        "target": ["TEXT"]
+      }
+    ],
+    "output": "String",
+    "colour": "%{BKY_TEXTS_HUE}",
+    "tooltip": "A literal string. Check the lock to hide its value on the block and while typing - useful for API keys/secrets. The generated code still contains the real value either way.",
+    "extensions": [
+      "text_quotes"
+    ],
+    "mcreator": {
+      "fields": [
+        "TEXT",
+        "MASKED"
+      ]
+    }
+}

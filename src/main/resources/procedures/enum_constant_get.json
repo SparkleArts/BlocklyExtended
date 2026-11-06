@@ -1,0 +1,28 @@
+{
+  "message0": "%1 . %2",
+  "args0": [
+    {
+      "type": "field_enum_type_reference",
+      "name": "ENUM"
+    },
+    {
+      "type": "field_enum_constant_reference",
+      "name": "CONSTANT",
+      "enumField": "ENUM"
+    }
+  ],
+  "inputsInline": true,
+  "output": null,
+  "colour": 200,
+  "tooltip": "A constant of a locally-declared enum from this procedure. Output is untyped for now - nothing in MCreator declares an \"Enum\"-checked input socket yet, so a real type tag would mean no socket could ever accept it. Revisit once a typed consumer (e.g. a \"switch on enum\") exists.",
+  "extensions": [
+    "enum_constant_get_refresh"
+  ],
+  "mcreator": {
+    "toolbox_id": "enums",
+    "fields": [
+      "ENUM",
+      "CONSTANT"
+    ]
+  }
+}

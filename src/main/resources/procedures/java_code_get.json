@@ -1,0 +1,16 @@
+{
+  "args0": [
+    {
+      "type": "field_code_editor",
+      "name": "CODE",
+      "code": "(null)"
+    }
+  ],
+  "output": null,
+  "colour": 250,
+  "mcreator": {
+    "fields": [
+      "CODE"
+    ]
+  }
+}

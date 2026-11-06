@@ -1,0 +1,4 @@
+rootProject.name = 'BlocklyExtended'
+
+include ":MCreator"
+project(":MCreator").projectDir = file(mcreator_path)

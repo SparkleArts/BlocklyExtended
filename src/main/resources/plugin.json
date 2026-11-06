@@ -1,0 +1,17 @@
+{
+  "id": "blocklyextended",
+  "supportedversions": [
+    202600341718,
+    202600344621,
+    2026002,
+    2026003
+  ],
+  "weight": 11,
+  "javaplugin": "org.sparklearts.blocklyextended.BlocklyExtended",
+  "info": {
+    "name": "Blockly Extended",
+    "version": "1.0",
+    "description": "Adds new custom Blockly field types.",
+    "author": "SparkleArts"
+  }
+}

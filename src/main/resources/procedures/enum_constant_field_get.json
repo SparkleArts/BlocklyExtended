@@ -1,0 +1,34 @@
+{
+  "message0": "%1 . %2 . %3",
+  "args0": [
+    {
+      "type": "field_enum_type_reference",
+      "name": "ENUM"
+    },
+    {
+      "type": "field_enum_constant_reference",
+      "name": "CONSTANT",
+      "enumField": "ENUM"
+    },
+    {
+      "type": "field_enum_field_reference",
+      "name": "FIELD",
+      "enumField": "ENUM"
+    }
+  ],
+  "inputsInline": true,
+  "output": null,
+  "colour": 200,
+  "tooltip": "A single typed field's value on a locally-declared enum constant, e.g. Difficulty.EASY.level. Output type follows the selected field (Number/String/Boolean) once one resolves - starts untyped so it can still be placed anywhere before you've picked an enum.",
+  "extensions": [
+    "enum_constant_field_get_refresh"
+  ],
+  "mcreator": {
+    "toolbox_id": "enums",
+    "fields": [
+      "ENUM",
+      "CONSTANT",
+      "FIELD"
+    ]
+  }
+}

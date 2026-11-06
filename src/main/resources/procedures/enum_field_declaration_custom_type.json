@@ -1,0 +1,24 @@
+{
+  "message0": "field %1 : %2 (custom type)",
+  "args0": [
+    {
+      "type": "field_input",
+      "name": "NAME",
+      "text": "value"
+    },
+    {
+      "type": "field_input",
+      "name": "TYPE",
+      "text": "int"
+    }
+  ],
+  "inputsInline": true,
+  "previousStatement": "EnumField",
+  "nextStatement": "EnumField",
+  "colour": 200,
+  "tooltip": "Same as \"field <name> : <type>\", but TYPE is fully free-typed (plain text, no suggestions, no restriction) instead of picked from the registered variable-type dropdown - use this for int/long/float, a custom class, a generic (List<String>), or anything else that isn't one of the registered variable types. A malformed or unresolvable type just fails to compile in the generated mod, same best-effort tradeoff as other free-text enum surfaces in this plugin. Place inside the enum's \"fields\" section, same as the dropdown variant - mixing both block kinds in the same enum is fine. Not connectable anywhere outside an enum's fields section.",
+  "mcreator": {
+    "toolbox_id": "enums",
+    "fields": ["NAME", "TYPE"]
+  }
+}

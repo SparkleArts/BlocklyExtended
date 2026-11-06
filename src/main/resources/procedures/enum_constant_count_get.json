@@ -1,0 +1,22 @@
+{
+  "message0": "number of constants in %1",
+  "args0": [
+    {
+      "type": "field_enum_type_reference",
+      "name": "ENUM"
+    }
+  ],
+  "inputsInline": true,
+  "output": "Number",
+  "colour": 200,
+  "tooltip": "How many constants are declared on this locally-declared enum - <enum>.values().length. Occasionally useful for validation/UI logic (e.g. picking a random constant by index).",
+  "extensions": [
+    "enum_constant_count_get_refresh"
+  ],
+  "mcreator": {
+    "toolbox_id": "enums",
+    "fields": [
+      "ENUM"
+    ]
+  }
+}

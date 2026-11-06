@@ -1,0 +1,45 @@
+{
+  "message0": "enum %1",
+  "args0": [
+    {
+      "type": "field_enum_type_name",
+      "name": "NAME",
+      "text": "MyEnum"
+    }
+  ],
+  "message1": "fields %1",
+  "args1": [
+    {
+      "type": "input_statement",
+      "name": "FIELDS",
+      "check": "EnumField"
+    }
+  ],
+  "message2": "constants %1",
+  "args2": [
+    {
+      "type": "field_enum_constant_table",
+      "name": "CONSTANTS",
+      "constants": ["EASY", "MEDIUM", "HARD"]
+    }
+  ],
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 200,
+  "tooltip": "Declares a local enum type, scoped to this procedure only. Drop \"field\" blocks into the fields section to give constants typed constructor arguments (e.g. EASY(1, \"Easy\")) - leave it empty for a plain name-only enum. Click the constant list to add/remove/reorder constants and fill in their per-field values.",
+  "extensions": [
+    "enum_type_name_collision_refresh"
+  ],
+  "mcreator": {
+    "toolbox_id": "enums",
+    "fields": [
+      "NAME",
+      "CONSTANTS"
+    ],
+    "statements": [
+      {
+        "name": "FIELDS"
+      }
+    ]
+  }
+}
